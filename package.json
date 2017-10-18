@@ -6,16 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "serve": "http-server",
+    "serve": "npm run watch & webpack-dev-server --open",
     "watch": "webpack --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^0.10.0",
     "ts-loader": "^2.3.7",
     "typescript": "^2.5.3",
-    "webpack": "^3.8.1"
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.2"
   }
 }
