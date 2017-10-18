@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "serve": "http-server"
+    "serve": "http-server",
+    "watch": "webpack --watch"
   },
   "keywords": [],
   "author": "",
